@@ -63,11 +63,11 @@ const DrawerContent = ({ isMobileOpen, isCollapseMenu, setIsCollapseMenu, canCol
           }}
           onClick={() => navigate('/')}
         >
-          {!isCollapseMenu ? 'Hello\n System' : 'HS'}
+          {!isCollapseMenu ? 'Hello\n Everyone !' : 'HS'}
         </h2>
       </Box>
       <Divider light />
-      <div
+      {/*<div
         style={{
           display: 'flex',
           flexDirection: 'row',
@@ -119,7 +119,7 @@ const DrawerContent = ({ isMobileOpen, isCollapseMenu, setIsCollapseMenu, canCol
             </p>
           </div>
         )}
-      </div>
+      </div>*/}
       <Divider light />
 
       <Menu items={menuData} isCollapseMenu={isCollapseMenu} />

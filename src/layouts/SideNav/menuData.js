@@ -12,13 +12,13 @@ const MenuData = [
     userAccess: true,
     icon: <DashboardIcon style={{ fill: 'white' }} />,
   },
-  {
-    id: 2,
-    text: 'Posts',
-    url: '/posts',
-    userAccess: true,
-    icon: <FeedIcon style={{ fill: 'white' }} />,
-  },
+  // {
+  //   id: 2,
+  //   text: 'Posts',
+  //   url: '/posts',
+  //   userAccess: true,
+  //   icon: <FeedIcon style={{ fill: 'white' }} />,
+  // },
 ];
 
 export default MenuData;
